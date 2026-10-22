@@ -5,6 +5,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
   base: "/travel-booking-exp03/",
+  
   plugins: [
     react(),
     VitePWA({
